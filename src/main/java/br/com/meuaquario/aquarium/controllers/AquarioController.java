@@ -40,12 +40,7 @@ public class AquarioController {
 		return new ResponseEntity<>(aquarios, HttpStatus.OK);
 	}
 	
-	@GetMapping("/gerenciar")
-	public ResponseEntity<List<Aquario>> listAllAquarios() {
-		List<Aquario> aquarios = aquarioService.findAllAquarios();
-		return new ResponseEntity<>(aquarios, HttpStatus.OK);
-	}
-	
+		
 	@GetMapping("/{id}")
 	public ResponseEntity<Aquario> getAquarioById(@PathVariable("id") Long idAquario) {
 		Aquario aquario = aquarioService.findByIdAquario(idAquario);
