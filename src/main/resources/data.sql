@@ -1,0 +1,12 @@
+INSERT INTO `peixe` (`id`,`cardume`,`especie`,`image_url`,`min_vol`,`ph`,`tp_agua`,`aquario_id`) VALUES (1,5,'Peixe-Palhaço','https://pequenopet.com.br/wp-content/uploads/2018/05/Peixe-Palhaco-1.jpg',120,'Alcalino','Salgada',NULL);
+INSERT INTO `peixe` (`id`,`cardume`,`especie`,`image_url`,`min_vol`,`ph`,`tp_agua`,`aquario_id`) VALUES (2,1,'Betta','https://i0.wp.com/petcaramelo.com/wp-content/uploads/2018/12/peixe-betta-azul.jpg?w=1400&ssl=1',120,'Alcalino','Doce',NULL);
+INSERT INTO `peixe` (`id`,`cardume`,`especie`,`image_url`,`min_vol`,`ph`,`tp_agua`,`aquario_id`) VALUES (3,1,'Guppy','https://meusanimais.com.br/wp-content/uploads/2021/07/peixe-guppy-fundo.jpg',120,'Alcalino','Doce',NULL);
+INSERT INTO `peixe` (`id`,`cardume`,`especie`,`image_url`,`min_vol`,`ph`,`tp_agua`,`aquario_id`) VALUES (6,1,'Bodó-seda','http://4.bp.blogspot.com/-ORYADDCAr_o/UVYUFgeMHqI/AAAAAAAAAJg/ht-SHflAkJk/s1600/1362073013045.jpg',150,'Neutro','Doce',NULL);
+INSERT INTO `peixe` (`id`,`cardume`,`especie`,`image_url`,`min_vol`,`ph`,`tp_agua`,`aquario_id`) VALUES (7,4,'Acará-disco','https://www.efecadepatos.com.br/wp-content/uploads/2016/01/2.jpg',200,'Alcalino','Doce',NULL);
+INSERT INTO `peixe` (`id`,`cardume`,`especie`,`image_url`,`min_vol`,`ph`,`tp_agua`,`aquario_id`) VALUES (8,2,'Flowerhorn','https://www.planetaaquarios.com.br/uploads/product_file/BIGc1457f964f20694061c14160145d3dab.jpg',200,'Neutro','Doce',NULL);
+
+
+INSERT INTO `aquario` (`id_aquario`,`altura`,`image_url`,`largura`,`nome`,`profundidade`,`tp_agua`,`vol`) VALUES (1,70,'https://www.petz.com.br/blog/wp-content/uploads/2021/03/modelos-de-aquarios-meio.webp',100,'Aquario Lispector',50,'Salgada',150);
+INSERT INTO `aquario` (`id_aquario`,`altura`,`image_url`,`largura`,`nome`,`profundidade`,`tp_agua`,`vol`) VALUES (2,170,'https://www.cbap.com.br/wp-content/uploads/2018/08/IMG_20180815_223116-1-1024x406.jpg',150,'Aquario Sicilyy',150,'Doce',300);
+INSERT INTO `aquario` (`id_aquario`,`altura`,`image_url`,`largura`,`nome`,`profundidade`,`tp_agua`,`vol`) VALUES (3,110,'https://www.aquarioshow.com.br/images/2021/12/06/aquario-marinho-10.jpg',130,'Aquario Schweyy',100,'Salgada',250);
+INSERT INTO `aquario` (`id_aquario`,`altura`,`image_url`,`largura`,`nome`,`profundidade`,`tp_agua`,`vol`) VALUES (8,100,'https://decorandocasas.com.br/wp-content/uploads/2015/12/Como-decorar-um-aqu%C3%A1rio-pequeno-0.jpg',90,'Aquario Pearl',75,'Doce',675);
