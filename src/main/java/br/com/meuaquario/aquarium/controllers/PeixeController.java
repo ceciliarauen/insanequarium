@@ -39,12 +39,7 @@ public class PeixeController {
 		return new ResponseEntity<>(peixes, HttpStatus.OK);
 	}
 	
-	@GetMapping("/gerenciar")
-	public ResponseEntity<List<Peixe>> listAllPeixes() {
-		List<Peixe> peixes = peixeService.findAllPeixes();
-		return new ResponseEntity<>(peixes, HttpStatus.OK);
-	}
-
+	
 	@GetMapping("/{id}")
 	public ResponseEntity<Peixe> getPeixeById(@PathVariable("id") Long id) {
 		Peixe peixe = peixeService.findPeixeById(id);
